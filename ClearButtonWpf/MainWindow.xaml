@@ -1,0 +1,72 @@
+﻿<Window x:Class="ClearButtonWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClearButtonWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid Background="#404751">
+
+
+
+
+        <!--Creat 3 row-->
+        <!--
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"></RowDefinition>
+                <RowDefinition Height="200"></RowDefinition>
+                <RowDefinition Height="200"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            -->
+        <!--Creat 2 column-->
+        <!--
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"></ColumnDefinition>
+                <ColumnDefinition Width="400"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            -->
+        <!--Creat 6 button-->
+        <!--
+            <Button  Name="Btn1" Grid.Row="0" Grid.Column="0"
+               Background="SpringGreen" Click="Btn1_Click">
+            </Button>
+
+            <Button  Name="Btn2" Grid.Row="0" Grid.Column="1"
+               Background="DeepSkyBlue" Click="Btn2_Click"
+                 >
+            </Button>
+
+            <Button  Name="Btn3" Grid.Row="1" Grid.Column="0"
+               Background="Bisque" Click="Btn3_Click">
+            </Button>
+
+            <Button  Name="Btn4" Grid.Row="1" Grid.Column="1"
+               Background="DarkRed" Click="Btn4_Click">
+            </Button>
+
+            <Button  Name="Btn5" Grid.Row="2" Grid.Column="0"
+               Background="DarkCyan" Click="Btn5_Click">
+            </Button>
+
+            <Button  Name="Btn6" Grid.Row="2" Grid.Column="1"
+               Background="Orange" Click="Btn6_Click">
+            </Button>-->
+
+        <Canvas Name="myCanvas"
+                MouseRightButtonDown="myCanvas_MouseRightButtonDown">
+            <Button Name="Btn1" MinWidth="100" MinHeight="100"
+                    Background="Orange">
+
+            </Button>
+            <Button Name="Btn2" MinWidth="100" MinHeight="100"
+                    Background="Red" Margin="100">
+
+            </Button>
+        </Canvas>
+
+    </Grid>
+</Window>
